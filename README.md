@@ -26,7 +26,7 @@ With respect to the similarity determination, there were a few assumptions that 
 * Punctuations are ignored.
 * Order of words is not considered in this case. Hence the algorithm is purely based on the occurences of words in abstracts of texts.
 
-##Execution steps
+## Execution Steps
 
 1. Clone the repository locally by executing the following command in the cli.
     ```
