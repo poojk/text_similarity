@@ -36,8 +36,9 @@ With respect to the similarity determination, there were a few assumptions that 
     
 2. The 'run.sh' file in the home directory can be used for execution. Also, execution can be triggered by executing the following command in the terminal 
     ```
-    python ./text_similarity/app.py
+    python app.py
     ```
+    (replace 0.0.0.0 in the link with your localhost IP)
   ## Execution via Docker Hub
   
 1. After cloning the git repository, the docker image from any container repository should be built locally. It looks something like this (mind the period at the end),
