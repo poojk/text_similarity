@@ -14,9 +14,9 @@ In the vector space (IR) model you are comparing two very sparse vectors in very
 
 The cosine similarity is advantageous because even if the two similar documents are far apart by the Euclidean distance because of the size  they could still have a smaller angle between them. Smaller the angle, higher the similarity.
 
-## Dashboard
+## App
 
-![github-small](https://github.com/poojk/text_similarity/screenshot.png)
+![github-small](https://github.com/poojk/text_similarity/blob/master/screenshot.png)
 
 ## Assumptions
 
