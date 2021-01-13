@@ -1,19 +1,15 @@
 FROM python:3.6
 
-USER root
+#USER root
+WORKDIR /usr/src/app
+#WORKDIR /app
 
-WORKDIR /app
-
-ADD . /app
-
-# Install our requirements.txt
-#ADD requirements.txt /app/requirements.txt
-#RUN pip install -r requirements.txt
-
-RUN pip install --trusted-host pypi.python.org -r requirements.txt
-
-EXPOSE 80
+#ADD . /app
+COPY . .
+#RUN pip install --trusted-host pypi.python.org -r requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
+EXPOSE 5000
 
 ENV NAME World
 
-CMD ["python", "app.py"]
+CMD ["python", "./app.py"]
