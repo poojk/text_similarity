@@ -62,9 +62,6 @@ def crux(a,b):
 
 #if __name__ == '__main__':
 #    app.run_server(debug=True)
-    
-#if __name__ == "__main__":
-#    app.run(host='0.0.0.0', port=80, debug=True, threaded=True)
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
