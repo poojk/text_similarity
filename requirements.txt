@@ -1,6 +1,4 @@
-dash
-dash-renderer
-dash-core-components
-dash-html-components
-plotly
+dash==1.12.0
+flask
+
 
