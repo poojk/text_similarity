@@ -1,6 +1,6 @@
 # Text Similarity
 
-Compares the similarity between two pieces of texts by using a metric. Exactly similar documents get a score of 1 and entirely dissimilar documents get a score of 0. So, the level of similarity lies in the range of 0-1.
+App that compares the similarity between two pieces of texts by using a metric. Exactly similar documents get a score of 1 and entirely dissimilar documents get a score of 0. So, the level of similarity lies in the range of 0-1.
 
 The metric that has been used to determine the level of similarity between texts is the "Cosine Similarity".
 
