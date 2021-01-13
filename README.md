@@ -16,7 +16,7 @@ The cosine similarity is advantageous because even if the two similar documents 
 
 ## Dashboard
 
-![github-small](https://github.com/poojk/BnB-Pay/blob/master/img.png)
+![github-small](https://github.com/poojk/text_similarity/blob/master/screenshot.png)
 
 ## Assumptions
 
