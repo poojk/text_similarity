@@ -1,15 +1,16 @@
 FROM python:3
 
-#USER root
+# set a directory for the app
 WORKDIR /usr/src/app
-#WORKDIR /app
 
-#ADD . /app
+# copy all the files to the container
 COPY . .
-#RUN pip install --trusted-host pypi.python.org -r requirements.txt
+
+# install dependencies
 RUN pip install --no-cache-dir -r requirements.txt
+
+# define the port number the container should expose
 EXPOSE 5000
 
-ENV NAME World
-
-CMD ["python", "app.py"]
+# run the command
+CMD ["python", "./app.py"]
