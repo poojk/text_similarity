@@ -1,4 +1,4 @@
-FROM python:3.6
+FROM python:3
 
 #USER root
 WORKDIR /usr/src/app
@@ -12,4 +12,4 @@ EXPOSE 5000
 
 ENV NAME World
 
-CMD ["python", "./app.py"]
+CMD ["python", "app.py"]
