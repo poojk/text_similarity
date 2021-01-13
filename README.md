@@ -42,13 +42,13 @@ With respect to the similarity determination, there were a few assumptions that 
   
 1. After cloning the git repository, the docker image from any container repository should be built locally. It looks something like this (mind the period at the end),
    ```
-   docker build -t raveenapoojak/docker101tutorial .
+   $docker build -t raveenapoojak/docker101tutorial .
    ```
    
 2. Then, the following command should be executed, after which the app can be found at http://localhost:8888. Here localhost indicated the IP address from where the app is being accessed.
 
    ```
-   docker run -p 8888:5000 raveenapoojak/docker101tutorial
+   $docker run -p 8888:5000 raveenapoojak/docker101tutorial
    ```
 The above command used port 5000 for the server inside the container and exposed this externally on port 8888. Head over to the URL with port 8888, where the app should be live.
 
