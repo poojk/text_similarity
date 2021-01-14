@@ -12,8 +12,6 @@ It is a highly efficient method used in information retrieval. It makes use of t
 
 In the vector space (IR) model you are comparing two very sparse vectors in very high dimensions. Cosine similarity is calculated using only the dot product and magnitude of each vector, and is therefore affected only by the terms the two vectors have in common. Cosine thus has some meaningful semantics for ranking similar documents, based on mutual term frequency.
 
-The cosine similarity is advantageous because even if the two similar documents are far apart by the Euclidean distance because of the size  they could still have a smaller angle between them. Smaller the angle, higher the similarity.
-
 ## App
 
 ![github-small](https://github.com/poojk/text_similarity/blob/main/screenshot.png)
