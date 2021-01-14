@@ -21,7 +21,7 @@ In the vector space (IR) model you are comparing two very sparse vectors in very
 With respect to the similarity determination, there were a few assumptions that had been made, making sure that the algorithm performs more efficiently. These assumptions are,
 * The words are compared against a dictionary of the most common stop words. When a presence of such words are encountered, they are ignored. More precisely, these stop words do not play any role in determining the level of similarity.
 * One another important consideration would be contractions of words. For example, "don't" and "do not" mean the same thing but would be considered as different words by general consideration. This ambiguity is also resolved by using another dictionary of contractions.
-* Punctuations are ignored.
+* Punctuations are removed. 
 * Order of words is not considered in this case. Hence the algorithm is purely based on the occurences of words in abstracts of texts.
 
 ## Execution Steps
